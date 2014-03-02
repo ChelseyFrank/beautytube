@@ -8,10 +8,12 @@ gem 'rails', '3.2.17'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem "httparty"
 end
 
 group :development, :test do
   gem 'sqlite3'
+  gem "httparty"
 end
 
 # Gems used only for assets and not required
