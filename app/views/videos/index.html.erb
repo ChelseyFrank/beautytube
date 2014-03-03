@@ -2,13 +2,19 @@
 
 <h3>What will you beautify today?</h3>
 
-<p>
-	<h5>Hair</h5>
-  <%= link_to "Braids", video_path(@braid) %>
-  <%= link_to "Coloring", video_path(@color) %>
-</p>
-<p>
-  <h5>Makeup</h5>
-  <%= link_to "Eyes", video_path(@eye)%>
-  <%= link_to "Lips", video_path(@lip) %>
-</p>
+<div class= "row">
+  <div class="col-md-4">
+    <p>
+      <h5>Hair</h5>
+      <%= link_to "Braids", video_path(@braid) %>
+      <%= link_to "Coloring", video_path(@color) %>
+    </p>
+  </div>
+  <div class="col-md-4">
+    <p>
+      <h5>Makeup</h5>
+      <%= link_to "Eyes", video_path(@eye)%>
+      <%= link_to "Lips", video_path(@lip) %>
+    </p>
+  </div>
+</div>
