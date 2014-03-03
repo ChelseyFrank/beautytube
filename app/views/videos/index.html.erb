@@ -4,11 +4,11 @@
 
 <p>
 	<h5>Hair</h5>
-  <%= link_to "Braids", videos_path() %>
-  <%= link_to "Coloring" %>
+  <%= link_to "Braids", video_path(@braid) %>
+  <%= link_to "Coloring", video_path(@color) %>
 </p>
 <p>
   <h5>Makeup</h5>
-  <%= link_to "Eyes" %>
-  <%= link_to "Lips" %>
+  <%= link_to "Eyes", video_path(@eye)%>
+  <%= link_to "Lips", video_path(@lip) %>
 </p>
