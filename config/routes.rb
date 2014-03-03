@@ -1,5 +1,7 @@
 Beautytube::Application.routes.draw do
 
-  match '/', to: 'videos#index', via: 'get'
-  match '/videos/:query', to: 'videos#show', via: 'get'
+  resources :videos, only: [:index, :show]
+
+  get '/home', to: 'videos#index'
+  get '/videos/:query', to: 'videos#show'
 end
