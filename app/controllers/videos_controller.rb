@@ -14,5 +14,6 @@ class VideosController < ApplicationController
     @color = "hair coloring styles"
     @eye = "eye makeup tutorials"
     @lip = "lip makeup techniques"
+    @nail = "nail painting tricks"
   end
 end

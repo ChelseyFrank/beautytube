@@ -5,29 +5,50 @@
 @import "bootstrap";
 
 body {
+/*	background: #c5ffff;*/
+	background: #8e0e3e;
 	/*background-color: #FFC6C6;*/
 	/*background-color: #F08080;*/
 	/*background-color: #80CEF0;*/
 	/*background-color: #6495ED; */
+	font-family: "champ";
 }
 
 h1 {
 	color: #7979FF;
 }
 
-.box {
-	max-width: 1000px;
-	border: 3px solid #FF7979;
-	background-color: #FFC6C6;
-	/*border-radius: 200px;*/
-/*	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)*/
+.hero {
+	height: 283px;
 }
 
 h3 {
-	font-family: "allura";
+	font-weight: 900;
+	text-transform: lowercase;
+	font-size: 68px;
+	margin-left: 60px;
+	color: #ffbedd;
 }
 
-h5 {
-	/*color: #79D7FF;*/
+.box {
+	max-width: 1000px;
+	height: 300px;
+	border: 3px solid #cc1559;
+	background-color: #ffbedd;
+	/*#FF7979;
+	#FFC6C6; */
+	border-radius: 10px;
+	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)
+}
+
+ul {
+	font-size: 48px;
+	color: #585858;
+	text-transform: lowercase;
+	margin-left: 60px;
+}
+
+.category-choices {
+	display: none;
 }

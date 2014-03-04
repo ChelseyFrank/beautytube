@@ -1,16 +1,28 @@
+<div class= "row">
+  <div class="col-sm-8">
+    <h1>BeautyTube</h1>
+  </div>
+</div>
+
 <h1>Videos#show</h1>
-<p> show
-	<%= @query %>
-</br>
-</p>
-<p>
-	<%= @id %>
-</p>
 
-<p>
+<div class= "row">
+  <div class="col-sm-3 col-sm-offset-1">
+    <div class="box">
+      <ul>Learning about (search query)
+      	<%= @query %>
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="box">
+      <ul>Video ID:
+      	<%= @id %>
+      </ul>
+    </div>
+  </div>
+</div>
 
-
-</p>
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
 src ='https://www.youtube.com/embed/aS6B9MYpYPw'

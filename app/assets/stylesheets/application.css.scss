@@ -34,3 +34,31 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "od";
+  src: url(font_path("/assets/odstemplik/odstemplikBold.otf")) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "caviar";
+  src: url(font_path("/assets/caviar_dreams/CaviarDreams.ttf")) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "journal";
+  src: url(font_path("/assets/Journal/journal.ttf")) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "champ";
+  src: url(font_path("/assets/champagne_limousines/Champagne & Limousines.ttf")) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
