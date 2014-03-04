@@ -1,24 +1,22 @@
-<div class= "row">
+<div class= "row header">
   <div class="col-sm-8">
     <h1>BeautyTube</h1>
   </div>
 </div>
-
-<h1>Videos#show</h1>
+<div class= "row hero">
+  <div class="col-sm-8 col-sm-offset-2">
+    <h3>
+      <%= @query %>
+    </h3>
+  </div>
+</div>
 
 <div class= "row">
-  <div class="col-sm-3 col-sm-offset-1">
+  <div class="col-sm-8 col-sm-offset-1">
     <div class="box">
-      <ul>Learning about (search query)
-      	<%= @query %>
-      </ul>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="box">
-      <ul>Video ID:
+      <h4>Video ID:
       	<%= @id %>
-      </ul>
+      </h4>
     </div>
   </div>
 </div>

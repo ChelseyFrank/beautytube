@@ -11,11 +11,15 @@ body {
 	/*background-color: #F08080;*/
 	/*background-color: #80CEF0;*/
 	/*background-color: #6495ED; */
-	font-family: "champ";
+	font-family: "coquette", fantasy;
 }
 
 h1 {
 	color: #7979FF;
+}
+
+.header {
+	border-bottom: 3px solid #cc1559;
 }
 
 .hero {
@@ -51,4 +55,11 @@ ul {
 
 .category-choices {
 	display: none;
+}
+
+li {
+	float: left;
+	display: block;
+	padding-left: 70px;
+	font-size: 24px;
 }
