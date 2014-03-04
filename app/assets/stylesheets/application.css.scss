@@ -13,3 +13,24 @@
  */
 
 @import "bootstrap";
+
+@font-face {
+  font-family: "allura";
+  src: url(font_path("/assets/allura/Allura-Regular.otf")) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "alex-brush";
+  src: url(font_path("/assets/alex-brush/AlexBrush-Regular.ttf")) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dancing";
+  src: url(font_path("/assets/dancing-script-ot/DancingScript-Regular.otf")) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

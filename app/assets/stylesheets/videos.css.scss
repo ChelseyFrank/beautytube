@@ -5,9 +5,9 @@
 @import "bootstrap";
 
 body {
-	background-color: #FFC6C6;
+	/*background-color: #FFC6C6;*/
 	/*background-color: #F08080;*/
-/*	background-color: #80CEF0;*/
+	/*background-color: #80CEF0;*/
 	/*background-color: #6495ED; */
 }
 
@@ -15,17 +15,17 @@ h1 {
 	color: #7979FF;
 }
 
-p {
+.box {
 	max-width: 1000px;
 	border: 3px solid #FF7979;
+	background-color: #FFC6C6;
 	/*border-radius: 200px;*/
 /*	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)*/
 }
 
 h3 {
-	font-style: italic;
-	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-family: "allura";
 }
 
 h5 {
