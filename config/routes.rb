@@ -1,5 +1,6 @@
 Beautytube::Application.routes.draw do
 
-  get '/home', to: 'videos#index'
+	root to: 'videos#index'
+
   get '/videos/:query', to: 'videos#show', as: 'video'
 end

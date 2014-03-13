@@ -9,13 +9,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div class= "row header">
-  <div class="col-sm-8">
-    <h1>BeautyTube</h1>
+<div class="container">
+  <div class="row-fluid">
+    <div class="span12">
+      <%= render 'nav-header' %>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </div>
   </div>
 </div>
-
-<%= yield %>
-
 </body>
 </html>

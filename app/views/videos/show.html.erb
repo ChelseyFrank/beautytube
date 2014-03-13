@@ -1,35 +1,16 @@
-<div class= "row hero">
-  <div class="col-sm-8 col-sm-offset-2">
+<div class= "row">
+  <div class="col-sm-4">
     <h3>
       <%= @query %>
     </h3>
   </div>
-</div>
-
-<div class= "row">
-  <div class="col-sm-8 col-sm-offset-1">
+  <div class="col-sm-4 col-sm-offset-1">
     <div class="box">
       <h4>Video ID:
       	<%= @id %>
       </h4>
     </div>
+    <iframe id="ytplayer" type="text/html" width="640" height="360"
+    src=<%= "#{@url}" %> frameborder="0" allowfullscreen>
   </div>
 </div>
-
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-src ='https://www.youtube.com/embed/aS6B9MYpYPw'
-frameborder="0" allowfullscreen>
-
-
-<!-- <object width="560" height="315">
-<param name="movie" value="https://youtube.googleapis.com/v/M7lc1UVf-VE?version=2&fs=1"</param>
-<param name="allowFullScreen" value="true"></param>
-<param name="allowScriptAccess" value="always"></param>
-<embed src="#{@url}"
-  type="application/x-shockwave-flash"
-  allowfullscreen="true"
-  allowscriptaccess="always"
-  width="560" height="315">
-</embed>
-</object> -->

@@ -19,7 +19,6 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'bootstrap-sass', '~> 3.1.1'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'sass-rails',   '~> 3.2.3'
 
@@ -30,3 +29,5 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+gem 'bootstrap-sass'

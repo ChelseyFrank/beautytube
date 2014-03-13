@@ -6,6 +6,7 @@ class VideosController < ApplicationController
     # @first_url = @results["feed"]["entry"][0]["media$group"]["media$player"][0]["url"]
 
     @id = @first_url.split("videos/")[1]
+    @url = "https://www.youtube.com/embed/" + @id
   #   @url = "https://www.youtube.com/v/VzEHmcABGUU?version=3&f=videos&app=youtube_gdata"
   end
 

@@ -14,8 +14,17 @@ body {
 	font-family: "coquette", "champ";
 }
 
+#nav {
+	border-bottom: 3px solid #cc1559;
+}
+
+a {
+	color: #585858;
+}
+
 h1 {
 	color: #7979FF;
+	margin: 0;
 }
 
 .header {
@@ -23,23 +32,28 @@ h1 {
 }
 
 .hero {
-  background-image: url("allthethings2.png");
-  background-position: center;
+  background-image: url("allthethings3.png");
+  background-position: -8px -50px;
   background-size: 45%;
   height: 283px;
+  margin-left: -163px;
+  margin-right: -134px;
+  margin-bottom: 20px;
+/*  vertical-align: center;*/
 }
 
 h3 {
-	font-weight: 550;
 	text-transform: lowercase;
 	font-size: 68px;
-	margin-left: 60px;
-	color: #ffbedd;
+	margin: 0;
+/*	color: #ffbedd;*/
+	color: #7979FF;
+	line-height: 283px;
+	font-weight: bold;
 }
 
 .box {
 	max-width: 1000px;
-	height: 300px;
 	border: 3px solid #cc1559;
 	background-color: #ffbedd;
 	/*#FF7979;
