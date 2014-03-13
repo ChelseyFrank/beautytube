@@ -1,15 +1,12 @@
 <div class= "row">
   <div class="col-sm-4">
-    <h3>
-      <%= @query %>
-    </h3>
-  </div>
-  <div class="col-sm-4 col-sm-offset-1">
     <div class="box">
-      <h4>Video ID:
-      	<%= @id %>
+      <h4>The query params:
+        <%= @query %>
       </h4>
     </div>
+  </div>
+  <div class="col-sm-4 col-sm-offset-1">
     <iframe id="ytplayer" type="text/html" width="640" height="360"
     src=<%= "#{@url}" %> frameborder="0" allowfullscreen>
   </div>
