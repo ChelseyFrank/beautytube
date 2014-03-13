@@ -6,7 +6,7 @@
 
 body {
 /*	background: #c5ffff;*/
-	background: #8e0e3e;
+	background: #ffbedd;
 	/*background-color: #FFC6C6;*/
 	/*background-color: #F08080;*/
 	/*background-color: #80CEF0;*/
@@ -15,7 +15,8 @@ body {
 }
 
 #nav {
-	border-bottom: 3px solid #cc1559;
+	background-color: #8e0e3e;
+	margin-left: -149px;
 }
 
 a {
@@ -29,16 +30,18 @@ h1 {
 
 .header {
 	border-bottom: 3px solid #cc1559;
+	height: 150px;
 }
 
 .hero {
   background-image: url("allthethings3.png");
-  background-position: -8px -50px;
-  background-size: 45%;
-  height: 283px;
-  margin-left: -163px;
-  margin-right: -134px;
-  margin-bottom: 20px;
+  background-position: 62px -53px;
+  background-size: 27%;
+  background-color: #8e0e3e;
+  height: 150px;
+  margin: 0 -134px 20px -163px;
+/*  margin-right: -134px;
+  margin-bottom: 20px;*/
 /*  vertical-align: center;*/
 }
 
@@ -48,14 +51,14 @@ h3 {
 	margin: 0;
 /*	color: #ffbedd;*/
 	color: #7979FF;
-	line-height: 283px;
+	line-height: 150px;
 	font-weight: bold;
 }
 
 .box {
 	max-width: 1000px;
 	border: 3px solid #cc1559;
-	background-color: #ffbedd;
+	/*background-color: #ffbedd;*/
 	/*#FF7979;
 	#FFC6C6; */
 	border-radius: 10px;
@@ -67,7 +70,7 @@ ul {
 	font-size: 48px;
 	color: #585858;
 	text-transform: lowercase;
-	margin-left: 60px;
+	margin-left: 38px;
 }
 
 .category-choices {
