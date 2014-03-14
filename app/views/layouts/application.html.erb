@@ -7,14 +7,16 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <link rel="icon" type="image/png" href="/lipred.png">
 </head>
 <body>
-<div class="container">
-  <div class="row-fluid">
-    <div class="span12">
-      <%= render 'nav-header' %>
-      <div class="container">
-        <%= yield %>
+<div id= "main" role= "main">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <%= render 'nav-header' %>
+         <%= yield %>
+        </div>
       </div>
     </div>
   </div>

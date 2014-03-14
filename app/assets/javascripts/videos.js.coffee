@@ -4,7 +4,7 @@
 
 jQuery ->
   $('#hair').click ->
-    # return if $('#hair').find('.category-choices').hasClass('active')
+    return if $('#hair').find('.category-choices').hasClass('active')
 
     $('#hair').find('.category-choices').toggleClass('active')
     $('#hair.box').animate({"height":"300px" }, 'slow')

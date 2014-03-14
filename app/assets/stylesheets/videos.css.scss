@@ -27,6 +27,7 @@ h1 {
 .header {
 	border-bottom: 3px solid #cc1559;
 	height: 150px;
+	margin-bottom: 52px;
 }
 
 .hero {
@@ -35,7 +36,7 @@ h1 {
   background-size: 27%;
   background-color: #8e0e3e;
   height: 150px;
-  margin: 0 -134px 20px -163px;
+  margin: 0 -134px 0 -163px;
 }
 
 h3 {
@@ -50,19 +51,22 @@ h3 {
 .box {
 	max-width: 1000px;
 	border: 3px solid #cc1559;
-	/*background-color: #ffbedd;*/
-	/*#FF7979;
-	#FFC6C6; */
+	height: 160px;
 	border-radius: 10px;
 	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 
 ul {
 	font-size: 48px;
 	color: #585858;
 	text-transform: lowercase;
-	margin-left: 38px;
 }
 
 .category-choices {
@@ -70,8 +74,24 @@ ul {
 }
 
 li {
-	float: left;
-	display: block;
-	padding-left: 70px;
+	display: inline-block;
 	font-size: 24px;
+}
+
+
+/*.box:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}*/
+
+.box:hover {
+	background-color: #ffa5d0;
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+	-ms-transition: All 0.5s ease;
+	transition: All 0.5s ease;
 }
