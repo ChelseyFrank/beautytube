@@ -1,24 +1,26 @@
-<div class= "row">
-  <div class="col-sm-8">
-    <h4>The query params:
-      <%= @query %>
-    </h4>
+<div class= "container-fluid" id="category-container">
+  <div class="row">
+    <ol class="breadcrumb">
+      <li><a href="/">Home</a></li>
+      <li class="active" id="category"></li>
+    </ol>
   </div>
-</div>
-<div class= "row">
-  <div class="col-sm-8">
-    <h4>Video title:
-      <%= @video_title %>
-    </h4>
+  <div class= "row">
+    <div class="col-sm-7">
+      <p>Video title:
+        <%= @video_title %>
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <p>Video description:
+        <%= @video_description %>
+      </p>
+    </div>
   </div>
-</div>
-<div class= "row">
-  <div class="col-sm-4 col-sm-offset-1">
-    <iframe id="ytplayer" type="text/html" width="640" height="360"
-    src=<%= "#{@url}" %> frameborder="0" allowfullscreen>
-  </div>
-  <div class="col-sm-4 col-sm-offset-1">
-    <h4>Video description:
-    </h4>
+  <div class= "row">
+    <div class="col-sm-12">
+      <iframe id="ytplayer" type="text/html" width="640" height="360"
+      src=<%= "#{@url}" %> frameborder="0" allowfullscreen>
+    </div>
   </div>
 </div>

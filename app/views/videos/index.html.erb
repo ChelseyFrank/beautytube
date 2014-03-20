@@ -1,50 +1,32 @@
-<div class= "row header">
-  <div class="col-sm-12 col-sm-offset-1">
-    <h3>What will you beautify today?</h3>
+<div class= "container-fluid" id="homepage-container">
+  <div class="row" id="hero-header-row">
+    <div class="hero"></div>
+    <div class="header">
+      <div class="col-sm-8">
+        <h3>What will you beautify today?</h3>
+      </div>
+    </div>
+  </div>
+  <div class= "row">
+    <div class="col-sm-2 col-sm-offset-1">
+      <div class="box" id="hair">
+        <ul>Hair</ul>
+          <li class ="category-choices" id="braids"><%= link_to "Braids", video_path(@braid) %></li>
+          <li class ="category-choices" id="coloring"><%= link_to "Coloring", video_path(@color) %></li>
+      </div>
+    </div>
+    <div class="col-sm-2 col-sm-offset-2">
+      <div class="box" id="face">
+        <ul>Face</ul>
+          <li class ="category-choices" id="eyes"><%= link_to "Eyes", video_path(@eye) %></li>
+          <li class ="category-choices" id="lips"><%= link_to "Lips", video_path(@lip) %></li>
+      </div>
+    </div>
+    <div class="col-sm-2 col-sm-offset-2">
+      <div class="box" id="body">
+        <ul>Body</ul>
+          <li class ="category-choices" id="nails"><%= link_to "Nails", video_path(@nail) %></li>
+      </div>
+    </div>
   </div>
 </div>
-<div class= "row">
-  <div class="col-sm-2 col-sm-offset-1">
-    <div class="box" id="hair">
-      <ul>Hair</ul>
-        <li class ="category-choices"><%= link_to "Braids", video_path(@braid) %></li>
-        <li class ="category-choices"><%= link_to "Coloring", video_path(@color) %></li>
-    </div>
-  </div>
-  <div class="col-sm-2 col-sm-offset-2">
-    <div class="box" id="face">
-      <ul>Face</ul>
-        <li class ="category-choices"><%= link_to "Eyes", video_path(@eye) %></li>
-        <li class ="category-choices"><%= link_to "Lips", video_path(@lip) %></li>
-    </div>
-  </div>
-  <div class="col-sm-2 col-sm-offset-2">
-    <div class="box" id="body">
-      <ul>Body</ul>
-        <li class ="category-choices"><%= link_to "Nails", video_path(@nail) %></li>
-    </div>
-  </div>
-</div>
-
-<!-- <div class= "row">
-  <div class="col-sm-2 col-sm-offset-1">
-    <div class="box" id="hair">
-      <ul>Hair</ul>
-        <li class ="category-choices"><%= link_to "Braids", video_path(@braid) %></li>
-        <li class ="category-choices"><%= link_to "Coloring", video_path(@color) %></li>
-    </div>
-  </div>
-  <div class="col-sm-2 col-sm-offset-2">
-    <div class="box" id="face">
-      <ul>Face</ul>
-        <li class ="category-choices"><%= link_to "Eyes", video_path(@eye) %></li>
-        <li class ="category-choices"><%= link_to "Lips", video_path(@lip) %></li>
-    </div>
-  </div>
-  <div class="col-sm-2 col-sm-offset-2">
-    <div class="box" id="body">
-      <ul>Body</ul>
-        <li class ="category-choices"><%= link_to "Nails", video_path(@nail) %></li>
-    </div>
-  </div>
-</div> -->

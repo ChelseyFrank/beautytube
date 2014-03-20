@@ -36,15 +36,22 @@
 }
 
 @font-face {
-  font-family: "journal";
-  src: url(font_path("/assets/Journal/journal.ttf")) format("truetype");
+  font-family: "champ";
+  src: url(font_path("/assets/champagne_limousines/Champagne & Limousines.ttf")) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "champ";
-  src: url(font_path("/assets/champagne_limousines/Champagne & Limousines.ttf")) format("truetype");
+  font-family: "afta";
+  src: url(font_path("/assets/afta-serif/AftaSerifThin-Regular.otf")) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "andada";
+  src: url(font_path("/assets/andada/Andada-Regular.otf")) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
