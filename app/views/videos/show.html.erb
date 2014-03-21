@@ -9,6 +9,7 @@
     <div class="col-sm-7 col-sm-offset-1">
       <h4>Video title:</h4>
       <p><%= @video_title %></p>
+<!--       <p><%= @results %></p> -->
     </div>
   </div>
   <div class= "row">
@@ -17,8 +18,11 @@
       src=<%= "#{@url}" %> frameborder="0" allowfullscreen>
       </iframe>
     </div>
-    <div class="col-sm-3 col-sm-offset-1">
-      <p id="next">FOO</p>
+    <div class="col-sm-1 col-sm-offset-1">
+      <a id="next" href="javascript:location.reload(true);">Next video</a>
+    </div>
+    <div class="col-sm-2 img">
+      <a href="javascript:location.reload(true);"><img src="/assets/threenails.png"></a>
     </div>
   </div>
 </div>
