@@ -5,8 +5,7 @@ class VideosController < ApplicationController
     @results = Video.get('/feeds/api/videos', :query => {:q => @query, :alt => 'json', :max_results => 50})
     @first_url = @results["feed"]["entry"][@randnumber]["id"]["$t"]
     @video_title = @results["feed"]["entry"][@randnumber]["title"]["$t"]
-    @video_description = @results["feed"]["entry"][@randnumber]["content"]
-
+    # @video_description = @results["feed"]["entry"][@randnumber]["content"]["$t"]
 
     @id = @first_url.split("videos/")[1]
     @url = "https://www.youtube.com/embed/" + @id
