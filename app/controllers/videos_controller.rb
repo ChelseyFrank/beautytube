@@ -3,7 +3,7 @@ class VideosController < ApplicationController
     @query = params[:query]
     @randnumber = rand(0...10)
     @page = rand(0...100)
-    @results = Video.get('/feeds/api/videos?&max-results=10&start-index='+ "#{@page}", :query => {:q => @query, :alt => 'json'})
+    @results = Video.get('/feeds/api/videos?&max-results=10&start-index='+ "#{@page}", :query => {:q => @query, :alt => 'json', :viewCount => 'rating'})
     @first_url = @results["feed"]["entry"][@randnumber]["id"]["$t"]
     @video_title = @results["feed"]["entry"][@randnumber]["title"]["$t"]
     # @first_url_long = @results["feed"]["link"][3]["href"]
@@ -15,9 +15,9 @@ class VideosController < ApplicationController
 
   def index
     @braid = "how to hair braids"
-    @color = "hair coloring styles"
+    @color = "hair color dye"
     @eye = "eye makeup tutorial"
-    @lip = "lip%20makeup%7Clipstick%20tutorial"
+    @lip = "lip makeup lipstick tutorial"
     @nail = "nail painting tricks"
   end
 end
