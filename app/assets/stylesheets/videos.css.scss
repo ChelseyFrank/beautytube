@@ -34,6 +34,8 @@ a {
 }
 
 .header {
+	padding-left: 10px;
+
 	border-bottom: 3px solid #cc1559;
 	height: 130px;
 }
@@ -41,14 +43,16 @@ a {
 .hero {
   background-image: url("allthethings3.png");
   background-size: contain;
-  background-position: 14px -23px;
+  background-position: 14px 0;
   width: 100%;
-  height: 150px;
+  height: 130px;
 }
 
 h3 {
+	@media (max-width: $screen-md) {font-size: 42px;}
+	@media (max-width: $screen-xs) {font-size: 30px;}
 	text-transform: lowercase;
-	font-size: 68px;
+	font-size: 58px;
 	margin: 0;
 	color: #7979FF;
 	line-height: 90px;
@@ -71,6 +75,8 @@ h3 {
 }
 
 ul {
+	@media (max-width: $screen-md) {font-size: 38px;}
+	@media (max-width: $screen-xs) {font-size: 44px;}
 	font-size: 48px;
 	color: #585858;
 	text-transform: lowercase;
@@ -114,10 +120,15 @@ p {
 	font-size: 20px;
 }
 
-#next{
-	@media (min-width: $screen_md) { line-height: 395px;}
+.breadcrumb {
+	background: #ffbedd;
+}
+
+.next-screen{
 	font-family: "champ";
 	font-size: 20px;
+	line-height: 50px;
+	text-align: center
 }
 
 img {
